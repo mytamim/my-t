@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #f4f4f4;
+    padding: 20px;
+
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 40px;
+    border-radius:10px ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+    border-bottom: 3px solid #007bff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #eaf4fe;
+}
+
+.header h1{
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.profile-image{
+    margin-bottom: 20px;
+}
+
+.profile-photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid #007bff;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0, 123, 255,0.3);
+}
+
+.title{
+    font-size: 1.2em;
+    color: #666;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.subtitle{
+    font-weight: bold;
+}
+
+.contact-info{
+    font-size: 0.9em;
+    color: #555;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section p {
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.section ul {
+    padding-right: 20px;
+}
+
+.section ul li {
+    text-align: justify;
+    padding: 8px;
+    color: #333;
+    transition: background 0.3s;
+}
+
+
+.section h2{
+    color: #007bff;
+    background-color: rgb(241, 252, 255);
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    border-right: 4px solid #007bff;
+    padding-right: 15px;
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    background-color: #f3fbff;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #007bff;
+    color: #555;
+    font-size: 0.9em;
+}
+
+.navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 20px;
+    background-color: #f0f8ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding: 5px 10px;
+}
+
+.navigation ul li a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.contact-form label {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #007bff;
+    outline: none;
+    background-color: #f7fbff;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
+
+/* التنقل العام */
+.navigation {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #f0f8ff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding: 6px 10px;
+}
+
+.nav-list li a:hover {
+    color: #0056b3;
+    border-bottom: 2px solid #007bff;
+}
+
+/* 🧠 استجابة للشاشات الصغيرة */
+@media (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+}
