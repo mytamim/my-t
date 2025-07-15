@@ -12,7 +12,7 @@ html{
 body{
     font-family: 'Cairo', sans-serif;
     line-height: 1.6;
-    color: black;
+    color: rgb(102, 14, 14);
     background-color: #f4f4f4;
     padding: 20px;
 
@@ -30,7 +30,7 @@ body{
 .header{
     text-align: center;
     margin-bottom: 40px;
-    border-bottom: 3px solid #007bff;
+    border-bottom: 3px solid #56826f;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #eaf4fe;
@@ -100,7 +100,7 @@ body{
     background-color: rgb(241, 252, 255);
     font-size: 1.5em;
     margin-bottom: 15px;
-    border-right: 4px solid #007bff;
+    border-right: 4px solid #ff0022;
     padding-right: 15px;
     padding: 10px;
 }
@@ -111,7 +111,7 @@ footer{
     margin-top: 20px;
     padding-bottom: 20px;
     padding-top: 20px;
-    border-top: 1px solid #007bff;
+    border-top: 1px solid #ff0026;
     color: #555;
     font-size: 0.9em;
 }
@@ -134,14 +134,14 @@ footer{
 
 .navigation ul li a {
     text-decoration: none;
-    color: #007bff;
+    color: #ff002f;
     font-weight: bold;
     transition: color 0.3s, border-bottom 0.3s;
     padding: 5px 10px;
 }
 
 .navigation ul li a:hover {
-    color: #0056b3;
+    color: #00b3a1;
     border-bottom: 2px solid #007bff;
 }
 
@@ -154,7 +154,7 @@ footer{
 
 .contact-form label {
     font-weight: bold;
-    color: #007bff;
+    color: #42133b;
 }
 
 .contact-form input,
@@ -175,7 +175,7 @@ footer{
 }
 
 .contact-form button {
-    background-color: #007bff;
+    background-color: #567da5;
     color: white;
     padding: 10px;
     border: none;
@@ -186,7 +186,7 @@ footer{
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: #1a2c3e;
 }
 
 /* التنقل العام */
